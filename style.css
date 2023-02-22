@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: arial;
+    background-image: url("./src/plano\ de\ fundo-opcional.webp");
+    background-size: 100%;
+    
+
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+    color: azure;
+}
+
+img{
+    width: 30px;
+    
+    
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+
+nav
+{
+    background-color: rgba(139, 135, 135, 0.5);
+    width: 350px;
+    height: 50%;
+    left: -350px;
+    transition: all .5s;
+    
+    
+    
+}
+
+input[type="checkbox"]:checked ~ nav
+{
+    transform: translateX(-350px);
+}
+
+a{
+    display: block;
+    padding: 20px 5px;
+    color: azure;
+}
+
+a:hover{
+    background-color: rgb(176,224,230);
+    color:rgb(4, 102, 69)
+}
+

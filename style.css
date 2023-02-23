@@ -16,6 +16,11 @@ body{
 
 }
 
+h1{
+    font-family: 'tara.ttf';
+    font-size: 30px;
+}
+
 ul{
     list-style: none;
 }

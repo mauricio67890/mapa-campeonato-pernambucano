@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'titulo do site';
+    
+    src: url('./fontes/rebelcommandexpandital.ttf'); 
+  }
+  
+  @font-face {
+    font-family: 'menu';
+    
+    src: url('');
+  }
